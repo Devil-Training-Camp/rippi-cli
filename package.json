@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  // 你代码里面的语法版本用的比较高，package.json 文件里面应该需要指定 `engine` 版本
   "author": "Rippi",
   "bin": {
     "cli": "./bin/index.js"
