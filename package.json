@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "rippi-cli",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -11,6 +11,10 @@
   "author": "Rippi",
   "bin": {
     "cli": "./bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "license": "ISC",
   "engines": {
