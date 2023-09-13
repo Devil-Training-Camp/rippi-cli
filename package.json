@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "rippi-cli",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -12,7 +12,14 @@
   "bin": {
     "cli": "./bin/index.js"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "axios": "^1.4.0",
     "chalk": "^5.3.0",
@@ -27,5 +34,8 @@
     "ora": "^7.0.0",
     "userhome": "^1.0.0",
     "vue-codemod": "^0.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0"
   }
 }
